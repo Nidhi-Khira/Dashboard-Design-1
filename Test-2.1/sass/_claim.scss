@@ -1,0 +1,92 @@
+.claim-num-cards {
+    grid-column: 4 / 12;
+    grid-row: 3 / 4;
+    display: flex;
+    justify-content: space-evenly;
+  
+    padding-top: 4rem;
+    margin-left: 3rem;
+  }
+  
+  
+  
+  .small-card {
+    box-shadow: 0px 0px 62px -22px rgba(0, 0, 0, 0.15);
+    height: 12rem;
+    width: 31rem;
+    padding: 0 0 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-left: -2rem;
+  }
+  
+  
+  
+  .small-card-1,.small-card-2 {
+    width: 32rem;
+  }
+  
+   .small-card-3 {
+    width: 34rem;
+  }
+ 
+  
+  .card-title {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+  }
+  
+  .card-number {
+    justify-self: center;
+    align-self: center;
+    font-size: 7rem;
+    font-weight: 300;
+    border-right: 2px solid rgba(0, 0, 0, 0.274);
+    line-height: 7rem;
+    padding-right: 2rem;
+    letter-spacing: -7px;
+  }
+ 
+  .card-number-2 {
+    letter-spacing: -0.8rem;
+  }
+  
+  .card-txt-img {
+    align-self: flex-start;
+    margin-left: 3rem;
+  }
+  
+  .card-txt-img h6 {
+    position: absolute;
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin: -5rem 5rem 2rem 4.6rem;
+    color: var(--color-white);
+    background-color: rgba(39, 153, 35, 0.808);
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    padding: 6px 0 0 2px;
+  }
+  
+  .card-txt-img h5 {
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.479);
+    margin: 1rem 0 1rem -2rem;
+  }
+ 
+  .small-img-circle {
+    height: 4.2rem;
+    width: 4.3rem;
+    margin-left: -2.5rem;
+    border: 2px solid var(--color-white);
+    border-radius: 50%;
+  }
+  
+  .card-txt-img small {
+    margin: -18rem 0 0 0;
+  }
+  

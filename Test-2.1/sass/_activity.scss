@@ -1,0 +1,153 @@
+.activity-bar {
+    grid-column: 9 / 12;
+    grid-row: 4 / 5;
+  
+    box-shadow: 0px 2px 62px -22px rgba(0, 0, 0, 0.15);
+    padding: 1.5rem;
+    height: 57.7rem;
+    width: 34.2rem;
+    overflow: hidden;
+  }
+  
+ 
+  
+  .activity-title {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+  }
+  
+  .activity-title h5 {
+    padding: 1rem 0.3rem;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .activity-wrapper {
+    display: flex;
+  
+    overflow: hidden;
+    height: 50rem;
+    margin-top: 1rem;
+    
+  }
+  
+  .activity-info {
+    margin-left: 0.5rem;
+    margin-right: 1.8rem;
+  }
+  
+  .activity-info-txt {
+    margin-top: 1.5rem;
+  }
+  
+  .activity-info-txt h4 {
+    font-size: 1.9rem;
+    font-weight: 500;
+  }
+  
+  .activity-info-txt h6 {
+    margin-top: 0.6rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.726);
+  }
+  
+  
+  
+  .activity-info-txt p {
+    margin: 0.7rem 0 1rem 0;
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.452);
+  }
+  
+  
+  
+  
+  
+  .circle-container {
+    position: relative;
+    width: 3rem;
+  }
+  
+  
+  
+  .circle-container--c1 {
+    padding-bottom: 11rem;
+  }
+  
+  .circle-container--c2 {
+    padding-bottom: 10rem;
+  }
+  
+  .circle-container--c3 {
+    padding-bottom: 11rem;
+  }
+  
+  .circle-container--c4 {
+    padding-bottom: 11rem;
+  }
+  
+  .circle-container--c5 {
+    padding-bottom: 1rem;
+  }
+  
+  .highlight-circle {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background-color: #2f87ec1c;
+    border-radius: 50%;
+    margin-top: 2rem;
+    margin-left: 0.2rem;
+  }
+  
+  .highlight-circle-h1 {
+    background-color: #2f87ec1c;
+  }
+  
+  .highlight-circle-h2 {
+    background-color: #faa6291c;
+   
+  }
+  
+  .highlight-circle-h3 {
+    background-color: #38b11a1c;
+  }
+  
+  .highlight-circle-h4 {
+    background-color: #2f87ec1c;
+  }
+  
+  .highlight-circle-h5 {
+    background-color: #25c2ba1c;
+  }
+  
+  .highlight-small-circle {
+    margin-top: 25%;
+    margin-left: 25%;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+  }
+  
+  .highlight-small-circle-c1 {
+    background-color: var(--color-secondary-dark);
+  }
+  
+  .highlight-small-circle-c2 {
+    background-color: var(--color-primary);
+    
+  }
+  
+  .highlight-small-circle-c3 {
+    background-color: #4dda2a;
+  }
+  
+  .highlight-small-circle-c4 {
+    background-color:var(--color-secondary);
+  }
+  
+  .highlight-small-circle-c5 {
+    background-color: var(--color-secondary-dark);
+  }
+  

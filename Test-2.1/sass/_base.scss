@@ -1,0 +1,40 @@
+
+:root {
+    --color-primary: #fdc200;
+    --color-primary-dark: #cf6400;
+    --color-secondary: #42bebe;
+    --color-secondary-dark: #155674;
+    --color-white: #fff;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  *,
+  ::before,
+  ::after {
+    box-sizing: border-box;
+  }
+  
+  html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    
+  }
+ 
+  body {
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 2rem;
+  }
+
+  .main {
+    display: grid;
+    grid-template-columns: 5rem repeat(9, 1fr) 10rem;
+    grid-template-rows: 30rem 8rem 19rem 65rem;
+    grid-gap: 1px;
+  }
+  
+ 

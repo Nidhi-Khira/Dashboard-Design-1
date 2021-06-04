@@ -1,0 +1,81 @@
+.sidebar {
+    grid-column: 1 / 4;
+    grid-row: 2 / 5;
+  
+    border-right: 2px solid rgba(0, 0, 0, 0.164);
+    padding: 5rem 1rem 0 5rem;
+  }
+  
+  
+  
+  .sidebar h5 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: rgba(117, 117, 117, 0.959);
+  }
+  
+  .about-family-heading {
+    display: inline;
+    padding: 0 0 1.5rem 0;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.192);
+  }
+  
+  .text-dot {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .three-dot {
+    display: inline;
+    margin-top: 10px;
+    margin-bottom: -12px;
+    height: 20px;
+    width: 20px;
+  }
+  
+  .coverd-persons {
+    margin: 1rem 0;
+  }
+  
+  .circle-image {
+    margin: 0 7px;
+    margin-top: 1.2rem;
+    height: 4.6rem;
+    width: 4.6rem;
+    border-radius: 50%;
+  }
+  
+  .benificiary-persons {
+    margin: 1rem 0;
+  }
+  
+  .emergency-persons {
+    margin: 1rem 0;
+  }
+  
+  .about-me {
+    font-size: 1.4rem;
+  }
+  
+  .about-me-heading {
+    padding: 0 0 1.5rem 0;
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.192);
+  }
+  
+  .about-me-list {
+    list-style: none;
+  }
+  
+  .about-me-list li {
+    font-weight: 600;
+    margin: 2rem 0;
+  }
+  
+  .about-me-list span {
+    display: block;
+  }
+  

@@ -1,0 +1,85 @@
+.claim-profile-card {
+    grid-column: 4 / 9;
+    grid-row: 4 / 5;
+    padding-left: 2.5rem;
+  }
+ 
+  .main-card {
+    display: flex;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0px 2px 62px -22px rgba(0, 0, 0, 0.15);
+    width: 66.5rem;
+  }
+ 
+  .main-card-image {
+    height: 13rem;
+    width: 13rem;
+    border: 0.1px solid rgba(0, 0, 0, 0.075);
+    border-radius: 3px;
+    box-shadow: 0px 0px rgba(0, 0, 0, 0.3);
+  }
+  
+  .main-card-details {
+    margin-left: 2rem;
+    width: 39.5rem;
+  }
+  
+  
+  .main-card-name {
+    margin-bottom: 1rem;
+  }
+  
+  .main-card-name h4 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  .logo-detail-txt {
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.568);
+  }
+  
+  .main-card-icon {
+    height: 1.7rem;
+    width: 1.7rem;
+    opacity: 0.25;
+  }
+  
+  .logo-detail-txt p {
+    margin-top: 3rem;
+  }
+  
+  .logo-detail-txt h5,
+  h6 {
+    font-weight: 400;
+    margin-left: 5px;
+  }
+  
+  .logo-detail-txt h5 {
+    color: rgba(19, 19, 19, 0.836);
+    margin-left: 1rem;
+  }
+  
+  .pay-btn {
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    color: var(--color-white);
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    padding: 0 3rem;
+    background-color: var(--color-secondary);
+    margin-bottom: 1rem;
+    transition: all 0.2s;
+  }
+  
+  
+  .pay-btn:hover {
+    background-color: var(--color-secondary-dark);
+    cursor: pointer;
+  }

@@ -1,0 +1,275 @@
+.header {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../img/header.jpg);
+      
+    background-size: cover;
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+  
+    display: grid;
+    grid-template-columns: minmax(min-content, 30rem) minmax(min-content, 50rem) 1fr;
+    grid-template-rows: 10rem 20rem;
+  }
+  
+  
+  
+  .company-name {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 2rem;
+
+  }
+  
+  .company-name h1 {
+    padding-left: 0.5rem;
+    color: var(--color-white);
+    font-size: 1.5rem;
+  }
+  
+  .company-logo-small {
+    margin-left: 3rem;
+    height: 2rem;
+    width: 2rem;
+  }
+  
+  .btn-bell-dp {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+  
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 0;
+  }
+  
+  .need-help-btn {
+    align-items: center;
+    margin: 1rem 0 0 0;
+    padding: 3px 15px;
+    font-size: 1.4rem;
+    font-weight: 300;
+    background-color: rgba(255, 255, 255, 0.164);
+    color: var(--color-white);
+    border: none;
+    
+  }
+  
+ 
+  
+  .bell-icon-small {
+    margin: 1rem 0.5rem 0 2.5rem;
+    height: 5rem;
+    width: 5rem;
+    fill: var(--color-primary);
+  }
+  
+  .small-dp {
+    margin: 1rem 5rem 0 2.5rem;
+  
+    height: 4rem;
+    width: 4rem;
+    border-radius: 2px;
+    align-items: flex-end;
+  }
+  
+  .profile-pic {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+  
+  .profile-pic-main {
+    border-radius: 3px;
+    box-shadow: 0px 2px 62px -22px rgba(0, 0, 0, 0.7);
+    height: 23.5rem;
+    width: 22rem;
+    margin-top: 8px;
+    margin-left: 5rem;
+    position: absolute;
+    z-index: 1111;
+  }
+  
+  
+  .profile-info {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+  
+  .welcome-text {
+    color:var(--color-white);
+    font-size: 2rem;
+  }
+  
+  .detail {
+    list-style: none;
+    color: var(--color-white);
+    font-size: 1.5rem;
+  }
+ 
+  .detail li {
+    margin-top: 1.5rem;
+  }
+  
+  .detail span {
+    font-weight: 400;
+    color: rgba(219, 216, 216, 0.959);
+  }
+  
+  .incomplete-profile {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    display: flex;
+    flex-direction: column;
+  
+    margin: 0.8rem;
+    margin-right: 5rem;
+  }
+  .dailogue-box {
+    height: 11rem;
+    width: 28rem;
+    padding: 0.5rem;
+    margin-left: auto;
+    background-color: rgba(255, 255, 255, 0.308);
+    color: var(--color-white);
+    display: inline;
+    display: flex;
+    justify-content: flex-end;
+  }
+ 
+  
+  .dailogue-box-circle {
+    color: #444;
+    font-family: "Lato";
+    font-size: 8px;
+    padding: 0;
+    margin-top: 0.8rem;
+  }
+ 
+  
+  .set-size {
+    font-size: 10em;
+  }
+  
+  .clearfix:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .pie-wrapper {
+    height: 1em;
+    width: 1em;
+    float: left;
+    margin: 3px;
+    position: relative;
+  }
+  
+  
+  .pie-wrapper .pie .half-circle {
+    height: 100%;
+    width: 100%;
+    border: 0.1em solid;
+    border-radius: 50%;
+    clip: rect(0, 0.5em, 1em, 0);
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+  
+  .pie-wrapper .label {
+    background: #8ebbe7;
+    border-radius: 50%;
+    bottom: 0.4em;
+    color: #c2cfd3;
+    cursor: default;
+    display: block;
+    font-size: 0.29em;
+    left: 0.4em;
+    line-height: 2.6em;
+    position: absolute;
+    right: 0.4em;
+    text-align: center;
+    top: 0.4em;
+  }
+  
+  .pie-wrapper .label .smaller {
+    color: #c5d4df;
+    font-size: 0.45em;
+    padding-bottom: 20px;
+    vertical-align: super;
+  }
+  
+  .pie-wrapper .shadow {
+    height: 100%;
+    width: 100%;
+    border: 0.1em solid #d1dbe2;
+    border-radius: 50%;
+  }
+  
+  .pie-wrapper.style-2 .label {
+    background: none;
+    color:var(--color-white);
+  }
+  
+  .pie-wrapper.progress-75 .pie {
+    clip: rect(auto, auto, auto, auto);
+  }
+  
+  .pie-wrapper.progress-75 .pie .right-side {
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+  }
+  
+  .pie-wrapper.progress-75 .pie .half-circle {
+    border-color: var(--color-primary);
+  }
+  
+  .pie-wrapper.progress-75 .pie .left-side {
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+  }
+ 
+  .profile-complete-text-btn {
+    padding: 0.2rem;
+    margin: 1rem 1.5rem 0 1rem;
+  }
+ 
+  
+  .profile-complete-text-btn h4 {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+  }
+ 
+  .profile-complete-text-btn h5 {
+    margin-top: 8px;
+    font-weight: 300;
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.753);
+  }
+  
+  .complete-btn {
+    font-size: 1.5rem;
+    display: inline;
+    
+    padding: 5px 10px;
+    background-color: var(--color-primary);
+  }
+  
+  .camera-icon {
+    height: 3rem;
+    width: 3rem;
+    margin-top: 3rem;
+   
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.378);
+  
+    display: flex;
+    align-self: flex-end;
+  }
+  
